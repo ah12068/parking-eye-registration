@@ -120,7 +120,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+src/.env
 .venv
 env/
 venv/
@@ -131,6 +131,9 @@ venv.bak/
 # Spyder project settings
 .spyderproject
 .spyproject
+
+# Pycharm specific
+.idea/
 
 # Rope project settings
 .ropeproject
